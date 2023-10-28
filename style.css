@@ -1,0 +1,163 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.img-fluid {
+  height:700px;
+  width:250px;
+  border:5px solid black;
+}
+
+.lead {
+  margin-left:70px;
+  margin-top:5px;
+}
+
+#features {
+  margin-top:50px;
+  margin-left:50px;
+}
+
+.heart {
+  display: block;
+  height:40px;
+  width:40px;
+  background-color:rgb(254, 168, 181);
+  border-radius:50%;
+}
+
+ #total {
+  font-family: 'Nosifer', sans-serif;
+  padding:10px;
+  margin-left:10px;
+}
+
+.para {
+  
+  font-family: 'Nosifer', sans-serif;
+font-family: 'Roboto Slab', serif;
+color:darkblue;
+margin-left:10px;
+padding:0px;
+}
+
+span {
+  color:palegreen;
+}
+
+#main {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-weight: 900;
+  color: #ff4c68;
+}
+
+.code {
+  font-family: 'Zeyada', cursive;
+  font-weight:595;
+  font-size:xx-large;
+}
+
+.defeat {
+  color:darkorange;
+}
+
+.heat {
+  border-radius:80%;
+  border:7px solid yellow;
+}
+
+.red {
+  display: inline-flex;
+  color:greenyellow;
+  font-weight: bolder;
+  margin-bottom:20px;
+  font-family: 'Flavors', cursive;
+  font-size:larger;
+}
+
+#feeling {
+  font-family: 'Playfair Display', serif;
+
+}
+
+#closer {
+  background-image:url("./images/dog-img.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+
+.bus {
+  margin:10px;
+  padding:10px;
+  border:3px solid white;
+}
+
+#row {
+  color:red;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+#rahul {
+  margin-left:50px;
+  margin-right:50px;
+}
+
+#zero {
+   padding-left:600px;
+   padding-right:600px;
+}
+
+.py-5 {
+  margin:50px ;
+}
+
+#clone {
+  
+  padding-left:200px;
+}
+
+#callme {
+  padding-left:500px;
+  padding-right:500px;
+}
+
+#logoo {
+  margin-right:30px;
+  padding-right:70px;
+  padding-top:20px;
+}
+
+#vin {
+  color: rgb(63, 55, 55);
+}
+
+#kon {
+  margin-top:10px;
+}
